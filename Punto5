@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main()
+{
+	float numero1, numero2, numero3;
+	std::cout << "Ingresa tres numeros con decimales:   " << std::endl;
+	std::cin >> numero1 >> numero2 >> numero3;
+	
+	if(numero1 < numero2 < numero3)
+	{ 
+		std::cout << "el numero " << numero3 << " es mayor" << std::endl;
+	}
+	
+	if(numero1 > numero2 > numero3)
+	{ 
+		std::cout << "el numero " << numero1 << " es mayor" << std::endl;
+	}
+	
+	if(numero1 < numero2 > numero3)
+	{ 
+		std::cout << "el numero " << numero3 << " es mayor" << std::endl;
+	}
+	system("pause");
+
+	return 0;
+}
