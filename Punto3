@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main()
+{
+	int num1;
+	std::cout << "ingresa un numero y te dire si es par, impar o cero, que esperas: " << std::endl;
+	std::cin >> num1;
+	
+	if(num1%2 ==0 && num1!=0)
+	{ 
+		std::cout << "el numero " << num1 << " es par" << std::endl;
+	}
+	
+	if(num1%2 !=0 && num1!=0)
+	{ 
+		std::cout << "el numero " << num1 << " es impar" << std::endl;
+	}
+	
+	if(num1== 0)
+	{ 
+		std::cout << "el numero " << num1 << " es cero" << std::endl;
+	}
+	
+	return 0;
+}
